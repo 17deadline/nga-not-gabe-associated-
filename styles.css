@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+}
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px; /* Add padding for better spacing inside the container */
+    text-align: center; /* Align text in the center */
+}
+h1 {
+    color: #d31c1c;
+}
+
+h2 {
+    color: #1c7bd3;
+}
+
+h3 {
+    color: purple
+}
+
+
+p {
+    line-height: 1.2;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px; /* Add padding for better spacing inside the container */
+    text-align: center; /* Align text in the center */
+}
