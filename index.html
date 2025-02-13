@@ -8,14 +8,19 @@
   <link rel="icon" href="nicecoc.JPG" type="image/x-icon">
   <!-- You can add more stylesheets or meta tags here -->
 </head>
+
 <body>
+  <div class = "main-container">
   <header>
     <h1 style="text-align: center;">Welcome to My Website</h1>
     <h1 style="text-align: center;">Gabe's website</h1>
     <h2 style="text-align: center;"> est. 12/28/24 </h2>
     <h2 style="text-align: center;"> 1/26/25 update </h2>
-  
-    <img style="text-align: center;" src="nicecoc.JPG" width="300">
+    <div class="image-container">
+      <img src="nicecoc.JPG" alt="Description" style=" width: 250px">
+    </div>
+    
+    <!-- <img style="text-align: center;" src="nicecoc.JPG" width="300"> -->
     <h2>   </h2>
     <!-- You can add navigation, logos, etc., within the header -->
   </header>
@@ -76,7 +81,10 @@
       <p>&copy; 2024 Your Website Name. All rights reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
-  <!-- You can add more scripts if needed -->
+
+<!-- what below was doing was that it was outside the body and so the flexbox didn't apply to it -->
+  <!-- <footer2>
+    <p> is this center aligned or left aligned</p>
+  </footer2> -->
 </body>
 </html>

@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
 }
 .container {
@@ -15,6 +18,21 @@ h1 {
     color: #d31c1c;
 }
 
+p {
+    line-height: 1.2;
+    text-align: left; /* This will apply left alignment to all <p> tags */
+}
+
+/* Target specific paragraphs in sections */
+#AboutUs p, #Blogs p, #contactus p {
+    text-align: left; /* Override center-aligned paragraphs specifically */
+}
+
+
+.image-container  {
+    text-align:center
+}
+
 h2 {
     color: #1c7bd3;
 }
@@ -26,6 +44,7 @@ h3 {
 
 p {
     line-height: 1.2;
+    text-align: center;
 }
 
 .container {
